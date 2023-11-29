@@ -1,6 +1,9 @@
-'''
-Andrea Alejandro ASIXBc1 29-11-2023
-
+#region Descripció
+"""
+Alejandro Liébana, Andrea Riba ASIXc1B
+M03 UF1
+29/11/23
+Descripció:
 Programa que imprimeix un tauler d’escacs per pantalla.
 Un taulell d’escacs comença amb la casella  Blanca i és de mida 8x8 sempre ;-)
 Fer servir:
@@ -8,7 +11,9 @@ BLANC = "⬜"
 NEGRE = "⬛"
 BLANCO=" "
 NEGRO="██"
-'''
+"""
+#endregion
+
 
 NEGRO = "  "
 BLANCO = "██"

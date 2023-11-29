@@ -1,7 +1,13 @@
-'''
-Alejandro Andrea 29-11-2023
+#region Descripció
+"""
+Alejandro Liébana, Andrea Riba ASIXc1B
+M03 UF1
+29/11/23
+Descripció:
 Programa que realitza la multiplicació, de dos nombres sencers,  mitjançant sumes
-'''
+"""
+#endregion
+
 try:
     num1 = int(input("Dame el primer número: "))
     num2 = int(input("Dame el segundo número: "))

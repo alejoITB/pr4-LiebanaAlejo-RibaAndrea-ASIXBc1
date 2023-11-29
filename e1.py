@@ -1,10 +1,15 @@
+#region Descripció
 """
-Andrea Alejandro ASIXBc1 29-11-2023
-
+Alejandro Liébana, Andrea Riba ASIXc1B
+M03 UF1
+29/11/23
+Descripció:
 Programa que demana a l'usuari la introducció de 10 nombres sencers
 (que també podrien ser 10000000 😱😳😈)
 i ha de mostrar, al final i per pantalla, quants són positius, quants negatius i quants zero.
 """
+#endregion
+
 count0 = 0
 countPOS = 0
 countNEG = 0

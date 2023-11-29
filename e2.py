@@ -1,20 +1,16 @@
-'''
-
-Andrea Alejandro ASIXBc1 29-11-2023
-
+#region Descripció
+"""
+Alejandro Liébana, Andrea Riba ASIXc1B
+M03 UF1
+29/11/23
+Descripció:
 Programa que mostra un triangle amb nombres a les cantonades.
 Cal demanar quina alçada ha de tenir el triangle.
 Els valors permesos per a l'alçada son entre 2 i 9. (ambdós inclosos)
-INPUT
-Alçada del triangle: 5
-OUTPUT
-1
-2 2
-3   3
-4     4
-5 5 5 5 5
+"""
+#endregion
 
-'''
+
 try:
     altura = int(input("Qué altura tiene el triangulo? (Entre 2 y 9) "))
     if altura >= 2 and altura <= 9:
