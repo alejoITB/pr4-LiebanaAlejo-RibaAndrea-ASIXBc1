@@ -16,7 +16,7 @@ countNEG = 0
 num = 0
 try:
     for i in range(10):
-        num = int(input("Dame un número: "))
+        num = float(input("Dame un número: "))
         if num == 0:
             count0 +=1
         elif num >0:
