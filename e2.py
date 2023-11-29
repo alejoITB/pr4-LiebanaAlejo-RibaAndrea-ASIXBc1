@@ -15,24 +15,20 @@ OUTPUT
 5 5 5 5 5
 
 '''
-
-altura = int(input("Qué altura tiene el triangulo? (Entre 2 y 9) "))
-if altura >= 2 and altura <= 9:
-    for i in range(1, altura+1):
-        for j in range(1, i+1):
-            if j == 1 or j == i or i == altura:
-                print(i, end="")
-            else:
-                print(" ", end="")
-        print("")
-
-
-
-
+try:
+    altura = int(input("Qué altura tiene el triangulo? (Entre 2 y 9) "))
+    if altura >= 2 and altura <= 9:
+        for i in range(1, altura+1):
+            for j in range(1, i+1):
+                if j == 1 or j == i or i == altura:
+                    print(i, end="")
+                else:
+                    print(" ", end="")
+            print("")
+    else:
+        print("Tiene que estar entre 2 y 9")
 
 
-
-
-else:
-    print("Tiene que estar entre 2 y 9")
+except:
+    print("ERROR.")
 
