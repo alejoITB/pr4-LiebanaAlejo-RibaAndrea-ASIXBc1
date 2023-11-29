@@ -9,5 +9,18 @@ si el límit és 54 sumaParells 702 i sumaSenars 729
 
 '''
 
-numero =
+numero = int(input("Dame un numero y te sumo los pares y los inpares: "))
 pares = 0
+inpares = 0
+try:
+    for i in range(numero):
+        if i % 2 == 0:
+            pares += i
+        else:
+            inpares += i
+    print(f"Los numeros pares suman {pares}, los números inpares suman {inpares}, has introducido {numero}")
+
+except:
+    print("ERROR. Introduce un número válido.")
+
+
