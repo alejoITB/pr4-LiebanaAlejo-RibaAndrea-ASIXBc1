@@ -17,9 +17,10 @@ NEGRO="██"
 
 NEGRO = " "
 BLANCO = "██"
+MEDIDA = 8
 
-for i in range(8):
-    for j in range(8):
+for i in range(MEDIDA):
+    for j in range(MEDIDA):
         if (i + j) % 2 == 0:
             print(BLANCO, end=" ")
         else:
